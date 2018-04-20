@@ -54,8 +54,9 @@
      <Compile Include="Assets\Unit\Combat.cs" />
      <Compile Include="Assets\Unit\Health.cs" />
      <Compile Include="Assets\Unit\Movement.cs" />
+     <Compile Include="Assets\Unit\MyUnitEditor.cs" />
      <Compile Include="Assets\Unit\Unit.cs" />
-     <Compile Include="Assets\Unit\UnitEditor.cs" />
+     <Compile Include="Assets\Unit\UnityEditor.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

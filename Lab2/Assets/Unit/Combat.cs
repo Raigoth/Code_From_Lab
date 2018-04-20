@@ -68,22 +68,14 @@ public class Combat : MonoBehaviour
 		direction = new Vector3(direction.x, 0.0f, direction.z);
 		Quaternion lookRotation = Quaternion.LookRotation(direction);
 
-		void OnTriggerEnter(Collider unit)
-		{
-			if (unit.gameObject == target && !unit.isTrigger)
-			{
-				routine = StartCoroutine(Attacking());
-				gameObject.GetComponent<Movement>().Stop();
-			}
-		}
-
 	}
-	/*void OnTriggerEnter(Collider unit)
+
+	void OnTriggerEnter(Collider unit)
 	{
 		if (unit.gameObject == target && !unit.isTrigger)
 		{
 			routine = StartCoroutine(Attacking());
 			gameObject.GetComponent<Movement>().Stop();
 		}
-	}*/
+	}
 }
